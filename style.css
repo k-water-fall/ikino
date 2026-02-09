@@ -1,0 +1,255 @@
+html {
+    font-family: "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#main {
+    margin-top: 125px;
+    margin: 7%;
+    padding: 16px;
+    background-color: #fff;
+
+
+}
+
+header {
+    border-bottom: solid 1px #535353;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 9998;
+}
+
+#title {
+    font-family: serif;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.9em;
+    text-indent: 0.9em;
+}
+
+#title h1 {
+    margin: 1px;
+}
+
+#title h3 {
+    margin: 1px;
+    font-size: 200%;
+}
+
+.contents {
+    width: 100%;
+    height: 110vh;
+}
+
+#img01 {
+    width: 45%;
+    height: auto;
+    margin-left: -16px;
+}
+
+#catch-section {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4%;
+    margin-right: 3%;
+    padding: 26px;
+    column-gap: 50px;
+    font-size: 150%;
+}
+
+#img02 {
+    width: 45%;
+    height: auto;
+    margin-right: -16px;
+}
+
+#concept-section {
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    margin: 4%;
+    margin-right: 3%;
+    padding: 26px;
+    font-size: 140%;
+}
+
+#video-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 140%;
+}
+
+#product-section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 26px;
+    font-size: 140%;
+}
+
+#img03 {
+    width: 30%;
+    height: auto;
+    margin-left: -42px;
+}
+
+#img04 {
+    width: 30%;
+    height: auto;
+    margin-right: -42px;
+}
+
+#store-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 26px;
+    font-size: 140%;
+}
+
+#img06 {
+    width: 45%;
+    height: auto;
+    margin-left: -16px;
+}
+
+#guide-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 4%;
+    margin-right: 3%;
+    padding: 26px;
+    column-gap: 50px;
+    font-size: 120%;
+}
+
+#contact-section {
+    text-align: center;
+    font-size: 150%;
+    line-height: 1.9;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e5e7eb;
+}
+
+address {
+    font-style: normal;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.hover-button {
+    background-color: #ffa23e;
+    color: white;
+    font-size: 80%;
+    padding: 15px 30px;
+    border: solid 1px #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    /* 変化を滑らかにする */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ホバー時のスタイル */
+.hover-button:hover {
+    background-color: #ffffff;
+    border: solid 1px #ffa23e;
+    color: #ffa23e;
+    margin: 0px;
+}
+
+.scroll_up {
+    transition: 1.0s ease-in-out;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.scroll_up.on {
+    transform: translateY(0);
+    opacity: 1.0;
+}
+
+.timing02 {
+    transition-delay: .2s;
+}
+
+.timing03 {
+    transition-delay: .4s;
+}
+
+.timing04 {
+    transition-delay: .6s;
+}
+
+.timing05 {
+    transition-delay: .8s;
+}
+
+
+.footer {
+    padding: 2rem;
+    font-size: 15px;
+    color: #ffffff;
+    background: #ffbe54;
+    margin-top: 30px;
+}
+
+.footer__navi-heading {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.footer__logo {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.footer__navi li {
+    margin-bottom: 0.75rem;
+}
+
+.footer__address {
+    margin-bottom: 2rem;
+}
