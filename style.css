@@ -33,8 +33,17 @@ header {
     z-index: 9998;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: serif;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
 #title {
     font-family: serif;
+    color: #000;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -43,15 +52,6 @@ header {
     align-items: center;
     letter-spacing: 0.9em;
     text-indent: 0.9em;
-}
-
-#title h1 {
-    margin: 1px;
-}
-
-#title h3 {
-    margin: 1px;
-    font-size: 200%;
 }
 
 .contents {
@@ -130,6 +130,22 @@ header {
     align-items: center;
     padding: 26px;
     font-size: 140%;
+}
+
+#goods-section {
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    margin: 4%;
+    margin-right: 3%;
+    padding: 26px;
+    font-size: 140%;
+}
+
+#img07 {
+    width: 45%;
+    height: auto;
+    margin-right: -16px;
 }
 
 #img06 {
@@ -231,9 +247,13 @@ address {
 .footer {
     padding: 2rem;
     font-size: 15px;
-    color: #ffffff;
-    background: #ffbe54;
+    color: #fff;
+    background: #F5B956;
     margin-top: 30px;
+}
+
+.footer img {
+    margin-bottom: 15px;
 }
 
 .footer__navi-heading {
